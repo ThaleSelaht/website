@@ -1,19 +1,42 @@
 .textSider {
+<<<<<<< HEAD
     margin: 3%;
     text-align: left;
     padding: 0%;
+=======
+
+    margin: 3%;
+    text-align: left;
+    padding: 0%;
+        
+>>>>>>> 15eab82d42fc7de4cb5a3f2f29002c97d1fa2765
 }
 
 
 .corpoCard{
+<<<<<<< HEAD
     text-align: center;
 }
 
 h3 {
+=======
+
+    text-align: center;
+  
+
+}
+
+h3 {
+
+>>>>>>> 15eab82d42fc7de4cb5a3f2f29002c97d1fa2765
     display: inline;
 }
 
 .labels {
+<<<<<<< HEAD
+=======
+
+>>>>>>> 15eab82d42fc7de4cb5a3f2f29002c97d1fa2765
     text-align: center;
 }
 

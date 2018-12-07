@@ -3,7 +3,11 @@ const initialData = {
         'task-1': { id: 'task-1', content: 'Pablo Picasso', price: 0, segment: 'Consultoria'},
         'task-2': { id: 'task-2', content: 'Georges Braque', price: 229 , segment: 'Comércio'},
         'task-3': { id: 'task-3', content: 'Salvador Dalí', price: 0, segment: 'Consultoria'},
+<<<<<<< HEAD
         'task-4': { id: 'task-4', content: 'Paul Cézanne', price: 0, segment: 'Comércio'},
+=======
+        'task-4': { id: 'task-4', content: 'Paul Cézanne', price: 0, segment: 'Comércio '},
+>>>>>>> 15eab82d42fc7de4cb5a3f2f29002c97d1fa2765
         'task-5': { id: 'task-5', content: 'Juan Gris', price: 229, segment: 'Restaurante'},
         'task-6': { id: 'task-6', content: 'Marcel Duchamp', price: 0, segment: 'Consultoria'},
         'task-7': { id: 'task-7', content: 'Pieter Cornelis Mondrian', price: 0, segment: 'Consultoria'},
