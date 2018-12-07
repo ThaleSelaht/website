@@ -12,7 +12,10 @@
     "@progress/kendo-react-grid": "^2.4.0",
     "@progress/kendo-react-inputs": "^2.4.0",
     "@progress/kendo-react-intl": "^2.4.0",
+<<<<<<< HEAD
     "@progress/kendo-react-pdf": "^2.4.0",
+=======
+>>>>>>> 15eab82d42fc7de4cb5a3f2f29002c97d1fa2765
     "@progress/kendo-theme-default": "^2.61.0",
     "@types/node": "^10.12.12",
     "antd": "^3.11.0",

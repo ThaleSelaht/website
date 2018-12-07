@@ -10,7 +10,11 @@ import Lead from './Lead';
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 import './index.css';
 
+<<<<<<< HEAD
 import { Layout, Menu, Icon, Button, Dropdown, Input, notification, Tag } from 'antd';
+=======
+import { Layout, Menu, Icon, Button, Dropdown, Input } from 'antd';
+>>>>>>> 15eab82d42fc7de4cb5a3f2f29002c97d1fa2765
 
 const { Header, Sider, Content } = Layout;
 const Search = Input.Search;
@@ -28,6 +32,7 @@ const menu = (
       </Menu.Item>
     </Menu>
 );
+<<<<<<< HEAD
 const openNotification = () => {
     const lead = (
       <a href="/lead">
@@ -63,6 +68,9 @@ class App extends React.Component {
     componentWillUnmount(){
     document.removeEventListener("keydown", this.escFunction, false);
     }
+=======
+class App extends React.Component {
+>>>>>>> 15eab82d42fc7de4cb5a3f2f29002c97d1fa2765
   state = {
     collapsed: false,
   };

@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import 'antd/dist/antd.css';
+<<<<<<< HEAD
 import inbound from './assets/funil-inbound.png';
 import contas from './assets/funil-de-contas.png';
 import vendas from './assets/funil-vendas.png';
@@ -32,6 +33,16 @@ class Fluxo extends Component {
         <img style={{width:'80%', height: 'auto'}} src={this.state.img} alt=""/>
         </div>
       </div>
+=======
+import fluxo from './assets/funil-de-contas.png';
+// import Flux from './components/Flux/';
+
+class Fluxo extends Component {
+  render() {
+    return (
+      <img src={fluxo} alt=""/>
+      // <Flux />
+>>>>>>> 15eab82d42fc7de4cb5a3f2f29002c97d1fa2765
     );
   }
 }

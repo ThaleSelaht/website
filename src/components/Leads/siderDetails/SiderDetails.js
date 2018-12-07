@@ -7,6 +7,11 @@ import { Button } from 'antd/lib/radio';
 class SiderDetails extends React.Component {
 
     render() {
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> 15eab82d42fc7de4cb5a3f2f29002c97d1fa2765
         return (
          <Card
          className="card"
@@ -14,6 +19,7 @@ class SiderDetails extends React.Component {
          extra={[<Icon type="edit" />,<Icon type="colum-height" />,<Button size="small" >Customise fields</Button>]} 
          key="details"      
          >
+<<<<<<< HEAD
         <Row>
             <Col span={24}>Nome Skype:
             </Col>
@@ -22,6 +28,21 @@ class SiderDetails extends React.Component {
             <Col span={24}>Origem do Lead:
             </Col>           
         </Row>
+=======
+         <Row>
+            <Col span={8}>Nome Skype:
+            </Col>
+            <Col span={8}></Col>
+          </Row>
+
+
+          <Row> 
+            <Col span={8}>Qual origem desse LEAD?
+            </Col>
+            <Col span={8}></Col>            
+        </Row>
+
+>>>>>>> 15eab82d42fc7de4cb5a3f2f29002c97d1fa2765
         <Row> 
             <Col span={8}>Responsável Canal - Informação Interna
 

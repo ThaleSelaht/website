@@ -1,5 +1,6 @@
 import React from 'react';
 import './style.css';
+<<<<<<< HEAD
 import { Timeline , Icon, Switch, Card, Avatar, DatePicker } from 'antd';
 import moment from 'moment';
 
@@ -33,9 +34,26 @@ class StepsContents extends React.Component {
         <Timeline.Item dot={<Icon type="phone" style={{ fontSize: '24px' }} />}>
         {myCard('Ligar', 'Pablo Picasso')}
         </Timeline.Item>
+=======
+import { Timeline , Icon } from 'antd';
+
+class StepsContents extends React.Component {
+
+  render() {
+    return (
+      <Timeline style={{background:'#FFF', margin: '10px 10px 0 0', padding: 10}}>
+        <Timeline.Item>Ligar 2015-09-01</Timeline.Item>
+        <Timeline.Item>Solve initial network problems 2015-09-01</Timeline.Item>
+        <Timeline.Item dot={<Icon type="clock-circle-o" style={{ fontSize: '16px' }} />} color="red">Technical testing 2015-09-01</Timeline.Item>
+        <Timeline.Item>Network problems being solved 2015-09-01</Timeline.Item>
+>>>>>>> 15eab82d42fc7de4cb5a3f2f29002c97d1fa2765
       </Timeline>
     );
   }
 }
 
+<<<<<<< HEAD
 export default StepsContents;
+=======
+export default StepsContents;
+>>>>>>> 15eab82d42fc7de4cb5a3f2f29002c97d1fa2765
